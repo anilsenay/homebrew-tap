@@ -1,6 +1,6 @@
 cask "octomux" do
-  version "0.1.2"
-  sha256 "6ccf56c894e287d0b56d4cc01fac5f4dc3cffecd55e07f38839b05e801166101"
+  version "0.2.0"
+  sha256 "5317bee8230bff701419aee162845711f2874c9d2d942b2dfe243444f0458a2b"
 
   url "https://github.com/anilsenay/octomux/releases/download/v#{version}/Octomux-#{version}.dmg"
   name "Octomux"
@@ -14,7 +14,6 @@ cask "octomux" do
 
   # Octomux updates itself (Sparkle), so `brew upgrade` leaves it alone unless --greedy.
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Octomux.app"
