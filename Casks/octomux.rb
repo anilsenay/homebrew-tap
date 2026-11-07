@@ -1,6 +1,6 @@
 cask "octomux" do
-  version "0.3.0"
-  sha256 "921c87ae16fdd4e2a08bc0bac9e5b2b712900da8ad8e61bf8b521081abbae4a8"
+  version "0.4.0"
+  sha256 "266ffdc3f6e4bcad0c377f6374bc5848da57aba9f9d368db3fb38d47201d74dd"
 
   url "https://github.com/anilsenay/octomux/releases/download/v#{version}/Octomux-#{version}.dmg"
   name "Octomux"
